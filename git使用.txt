@@ -1,0 +1,78 @@
+git clone url
+
+file
+
+git add .
+git  commit -m 'message'
+git push
+
+
+
+penghui@DESKTOP-OEV5RHA MINGW64 /e/MyDownloads/qq/code
+$ git clone https://github.com/PengHui-pwld/software-engineering-.git
+Cloning into 'software-engineering-'...
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+penghui@DESKTOP-OEV5RHA MINGW64 /e/MyDownloads/qq/code
+$ cd software-engineering-/
+
+penghui@DESKTOP-OEV5RHA MINGW64 /e/MyDownloads/qq/code/software-engineering- (master)
+$ git add .
+warning: LF will be replaced by CRLF in bin/newfile.cld.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/newfile.cld.
+The file will have its original line endings in your working directory.
+
+penghui@DESKTOP-OEV5RHA MINGW64 /e/MyDownloads/qq/code/software-engineering- (master)
+$ git commit -m 'add source file'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "2609571688@qq.com"
+  git config --global user.name "PengHui-pwld"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'penghui@DESKTOP-OEV5RHA.(none)')
+
+penghui@DESKTOP-OEV5RHA MINGW64 /e/MyDownloads/qq/code/software-engineering- (master)
+$ git config --global user.email "2609571688@qq.com"
+
+penghui@DESKTOP-OEV5RHA MINGW64 /e/MyDownloads/qq/code/software-engineering- (master)
+$ git config --global user.name "PengHui-pwld"
+
+penghui@DESKTOP-OEV5RHA MINGW64 /e/MyDownloads/qq/code/software-engineering- (master)
+$ git commit -m 'add source file'
+[master 10cc279] add source file
+ 9 files changed, 445 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 bin/Main$1ab.class
+ create mode 100644 bin/Main.class
+ create mode 100644 bin/newfile.cld
+ create mode 100644 result.txt
+ create mode 100644 src/Main.java
+ create mode 100644 src/newfile.cld
+
+penghui@DESKTOP-OEV5RHA MINGW64 /e/MyDownloads/qq/code/software-engineering- (master)
+$ git push
+fatal: HttpRequestException encountered.
+   发送请求时出错。
+Username for 'https://github.com': PengHui-pwld
+Counting objects: 13, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (13/13), 8.24 KiB | 1.37 MiB/s, done.
+Total 13 (delta 0), reused 0 (delta 0)
+To https://github.com/PengHui-pwld/software-engineering-.git
+   adf7a1b..10cc279  master -> master
+
+penghui@DESKTOP-OEV5RHA MINGW64 /e/MyDownloads/qq/code/software-engineering- (master)
+$
